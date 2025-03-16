@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    
+
+<div class="header">
+    <img src ="gif-poke.gif.png" alt="">
+    <div class="search-container">
+    <input type="text" id="search" placeholder=" search your pokémon">
+<select class="text" id="typeFilter">
+    <option value="all">all</option>
+    <option value="grass">Grass</option>
+    <option value="fire">Fire</option>
+    <option value="water">Water</option>
+    <option value="electric">Electric</option>
+</select>
+<select class="text" id="sort">
+    <option value="id">Sort by Id</option>
+    <option value="name">Sort by Name</option>
+</select>
+<button class="btn" id="searchBtn">search</button>
+</div>
+</div>
+<div class="main-content" id="pokemon-container"></div> 
+
+<script src="./pokemons.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
